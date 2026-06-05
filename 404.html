@@ -4,8 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 - Page not found</title>
-    <!-- <script src="src/legal/analytics-config.js"></script> -->
-    <script src="src/legal/cookie-consent.js"></script>
+    <script src="loader.js" defer></script>
+    <style>
+      /* Stijlen voor de donkere modus */
+      body {
+        background-color: #121212; /* Donkere achtergrond */
+        color: #e0e0e0; /* Lichte tekstkleur */
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      h1 {
+        color: #ff4757; /* Een opvallende kleur voor de foutmelding */
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #a0a0a0; /* Iets zachtere kleur voor de subtitel */
+        font-size: 1.2rem;
+      }
+    </style>
   </head>
   <body>
     <h1>Sorry!</h1>
