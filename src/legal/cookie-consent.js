@@ -10,7 +10,7 @@
   // ==========================================
   const config = {
     gaId: "G-7S5RE8XJ9R", // Vul hier je eigen Google Analytics 4 ID in
-    privacyUrl: "../privacy.html", // De link naar jouw privacy-pagina
+    privacyUrl: "src/legal/privacy.html", // De link naar jouw privacy-pagina
     primaryColor: "#6366f1", // Moderne Indigo kleur
     buttonTextColor: "#ffffff", // De tekstkleur op de hoofdknop
     bannerStyle: "modal", // Kies 'modal' (midden van het scherm) of 'bar' (balk onderaan)
