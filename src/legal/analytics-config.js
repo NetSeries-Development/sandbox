@@ -7,17 +7,18 @@ cookiebotScript.type = "text/javascript";
 document.head.appendChild(cookiebotScript);
 
 var gaScript = document.createElement("script");
-gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-K184EY8SB4";
+gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-7S5RE8XJ9R";
 gaScript.setAttribute("data-cookieconsent", "statistics");
 document.head.appendChild(gaScript);
 
 var gaInit = document.createElement("script");
 gaInit.type = "text/plain";
+zz;
 gaInit.setAttribute("data-cookieconsent", "statistics");
 gaInit.innerHTML = `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-K184EY8SB4');
+  gtag('config', 'G-7S5RE8XJ9R');
 `;
 document.head.appendChild(gaInit);
