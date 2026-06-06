@@ -6,10 +6,12 @@
     <script src="/src/loader.js" defer></script>
 
     <script>
-      window.location.href = "https://sandbox.netseries.dev";
+      setTimeout(function () {
+        window.location.href = "https://sandbox.netseries.dev";
+      }, 4000);
     </script>
   </head>
   <body>
-    <p>Redirecting... If it doesn't happen automatically, <a href="https://sandbox.netseries.dev">click here</a>.</p>
+    <p id="redirect-text">Redirecting within 4 seconds...</p>
   </body>
 </html>

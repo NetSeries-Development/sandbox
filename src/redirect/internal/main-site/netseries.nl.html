@@ -5,10 +5,12 @@
     <title>Redirecting...</title>
     <script src="/src/loader.js" defer></script>
     <script>
-      window.location.href = "https://www.netseries.dev";
+      setTimeout(function () {
+        window.location.href = "https://www.netseries.dev";
+      }, 4000);
     </script>
   </head>
   <body>
-    <p>Redirecting... If it doesn't happen automatically, <a href="https://www.netseries.dev">click here</a>.</p>
+    <p id="redirect-text">Redirecting, this can take up to 4 seconds.</p>
   </body>
 </html>
